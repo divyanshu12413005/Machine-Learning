@@ -3,7 +3,12 @@ import pandas as pd
 
 
 
-from data import kohli,bollywood, subs
+import sys
+from pathlib import Path
+
+sys.path.append(str(Path(__file__).parent.parent))
+
+from data import subs, kohli, bollywood
 
 
 # astype

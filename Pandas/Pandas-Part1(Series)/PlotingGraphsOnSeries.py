@@ -1,6 +1,11 @@
 import pandas as pd
 import numpy as np  
 
+import sys
+from pathlib import Path
+
+sys.path.append(str(Path(__file__).parent.parent))
+
 from data import subs, kohli, bollywood
 
 
@@ -13,6 +18,6 @@ from data import subs
 # plt.show()
 
 
-# bollywood.value_counts().head(20).plot(kind="bar")
+bollywood.value_counts().head(20).plot(kind="pie")
 
-# plt.show()
+plt.show()

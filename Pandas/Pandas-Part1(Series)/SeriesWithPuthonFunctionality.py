@@ -1,8 +1,12 @@
 import pandas as pd
 import numpy as np  
 
-from data import subs, kohli, bollywood
+import sys
+from pathlib import Path
 
+sys.path.append(str(Path(__file__).parent.parent))
+
+from data import subs, kohli, bollywood
 
 # len/type/dir/sorted/max/min
 
@@ -32,7 +36,7 @@ from data import subs, kohli, bollywood
 
 # /Arithmatic operators   (Broadcasting)
 
-# print(kohli)
+print(kohli)
 
 # print(kohli + 10)  # add 10 to each value
 
