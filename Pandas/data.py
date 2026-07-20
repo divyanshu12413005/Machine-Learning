@@ -25,3 +25,11 @@ matches = pd.read_csv(
 movies = pd.read_csv(
     BASE_DIR / "Database" / "movies.csv"
 )
+
+batsman_runs = pd.read_csv(
+    BASE_DIR / "Database" / "batsman_runs_ipl.csv"
+)
+
+diabetes = pd.read_csv(
+    BASE_DIR / "Database" / "diabetes.csv"
+)
