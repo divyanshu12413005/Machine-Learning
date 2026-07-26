@@ -33,3 +33,12 @@ batsman_runs = pd.read_csv(
 diabetes = pd.read_csv(
     BASE_DIR / "Database" / "diabetes.csv"
 )
+
+deliveries = pd.read_csv(
+    BASE_DIR / "Database" / "deliveries.csv"
+    )
+
+
+imdb = pd.read_csv(
+    BASE_DIR / "Database" / "imdb-top-1000.csv"
+    )

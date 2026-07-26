@@ -11,6 +11,9 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
+# Local datasets
+Pandas/Database/
+
 # Editor/OS files
 .vscode/
 .idea/
