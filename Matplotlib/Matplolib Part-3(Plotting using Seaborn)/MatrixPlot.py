@@ -28,6 +28,8 @@ temp_df=gap_pivot=gap.pivot_table(
 
 
 # clustermap -> figure level function
+
+
 # it performs hierarchical clustering on both rows and columns of the data matrix, 
 # and then reorders the rows and columns based on the clustering results. 
 # This can help to reveal patterns and relationships in the data that may not be immediately apparent from a standard heatmap.
