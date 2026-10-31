@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+from pathlib import Path
 
 st.set_page_config(
     page_title="Placement Predictor",
@@ -11,9 +12,10 @@ st.set_page_config(
 st.title("🎓 Student Placement Predictor")
 st.write("Enter student details below.")
 
-# Load trained model and scaler
-model = joblib.load("placement_model.pkl")
-scaler = joblib.load("scaler.pkl")
+# Load trained model and scaler from this script's directory
+APP_DIR = Path(__file__).resolve().parent
+model = joblib.load(APP_DIR / "placement_model.pkl")
+scaler = joblib.load(APP_DIR / "scaler.pkl")
 
 # User inputs
 cgpa = st.number_input(

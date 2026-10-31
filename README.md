@@ -15,7 +15,7 @@ This repository contains my machine learning practice files.
 Run any Python file from the project folder:
 
 ```powershell
-python -u "Numpy\numpyarray.py"
+python -u "Numpy\Numpy-Part1\numpyarray.py"
 ```
 
 Install NumPy if it is not already installed:

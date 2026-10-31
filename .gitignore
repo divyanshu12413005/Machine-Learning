@@ -14,6 +14,13 @@ env/
 # Local datasets
 Pandas/Database/
 
+# Generated reports and runtime artifacts
+*_report.html
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
 # Editor/OS files
 .vscode/
 .idea/
